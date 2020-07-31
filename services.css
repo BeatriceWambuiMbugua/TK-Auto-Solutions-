@@ -1,0 +1,45 @@
+body{
+    background-color: silver;
+}
+/* .background-image{
+    position:absolute;
+    background-image: url(https://i.ibb.co/kxW8mwT/service.jpg);
+    background-size: cover;
+    
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+} */
+#services p{
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+/* .mechanic>ul>li{
+    text-align: center;
+    color: black;
+} */
+li>a{
+    color: black;
+    font-size: 20px;
+}
+.mechanic{
+    text-align: center;
+}
+.service-image img{
+    border-radius: 50%;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    line-height: 40px;
+}
+h2{
+    font-size: 20px;
+}

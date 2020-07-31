@@ -1,0 +1,21 @@
+body{
+    background-color: grey;
+}
+#about{
+    text-align: center;
+}
+#about-content{
+    display: flex;
+    justify-content: space-around;
+}
+.about-details{
+    padding: 20px;
+    /* line-height: 20px; */
+}
+.about-image img{
+    border-radius: 50%;
+}
+.about-details p{
+    line-height: 30px;
+    font-size: 20px;
+}

@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+.carmodels>p{
+    line-height: 30px;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.inner-content{
+    display: flex;
+    justify-content: center;
+}
+.inner-content img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    transition: all .15s ease;
+}
+.inner-content img:hover{
+    transform: scale(1.1);
+    
+}
+.inner-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: black;
+}
+.inner-content a:hover{
+    box-shadow: 2px 5px red;
+}
+.lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    margin-left: -110px;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: grey;
+}
+header{
+    font-size: xx-large;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+}
+header:hover{
+    color: chartreuse;
+}
+h1{
+    text-align: center;
+}
+h1 a{
+    font-style: italic;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+}
+h1 a:hover{
+    color: powderblue;
+}
+article{
+    font-size: 20px;
+    line-height: 40px;
+}
+section{
+    font-size: 20px;
+    line-height: 40px;
+}
+.home-image img{
+    border-radius: 50%;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+}
