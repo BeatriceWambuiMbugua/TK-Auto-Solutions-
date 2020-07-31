@@ -5,10 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="contact.css">
-    
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div id="nav" class="container"> 
+    <nav>
+        <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a href="About.html">About</a>
+          </li>
+          <li>
+              <a href="services.html">Services</a>
+          </li>
+          <li>
+              <a href="models.html">Models</a>
+          </li>
+          <li>
+            <a href="blog.html">blog</a>
+          </li>
+          <li>
+            <a href="customer.html">Customer Reviews</a>
+          </li>
+          <li>
+              <a href="contact.html">Contacts</a>
+          </li>
+      </ul>
+      </nav> 
+      <br>
+      <h1>Contact Us</h1>
+      <div class="contact">
+          <p>If you have any question regarding our services, 
+              feel free to contact us via:
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="https://www.facebook.com/tkautogarage/">TK Auto Solutions</a>
+              or you can fill the form below.
+          </p>
+      </div>
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">City</label>
+          <select id="country" name="city">
+            <option value="nairobi">Nairobi</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="mombasa">Mombasa</option>
+          </select>
+          
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
         
 
     <script
