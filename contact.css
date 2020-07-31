@@ -13,7 +13,7 @@ input[type=text], select, textarea {
     resize: vertical 
   }
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: grey;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -21,7 +21,7 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: black;
   }
   .container {
     border-radius: 5px;
@@ -35,4 +35,21 @@ input[type=text], select, textarea {
   h1:hover{
       box-shadow: 2px 5px solid white;
       color: yellow;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 100px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .contact>p{
+    font-size: 20px;
   }
